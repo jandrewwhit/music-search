@@ -90,6 +90,7 @@
   .image-wrapper {
     display: flex;
     align-items: center;
+    min-width: 60px;
   }
   
   .track-artist-wrapper {
