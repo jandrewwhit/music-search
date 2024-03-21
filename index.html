@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Song Progress Circle Button</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="heading">Search Your Favorite Artist</h1>
+        <form id="searchForm" onclick="runSearch()">
+            <div class="search">
+                <input id="searchBox" class="search-box" type="text" placeholder="search artist" name="artist" required>
+                <button id="searchButton" class="search-btn" type="submit">search</button>
+            </div>
+        </form>
+        <div id="results">
+            <!-- this will be fed by JavaScript -->
+        </div>
+    </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
